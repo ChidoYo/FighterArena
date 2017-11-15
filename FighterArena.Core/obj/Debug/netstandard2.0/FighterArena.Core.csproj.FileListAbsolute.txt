@@ -1,0 +1,9 @@
+C:\Code\GIT\ErickTraining\FighterArena.Core\bin\Debug\netstandard2.0\FighterArena.Core.deps.json
+C:\Code\GIT\ErickTraining\FighterArena.Core\bin\Debug\netstandard2.0\FighterArena.Core.dll
+C:\Code\GIT\ErickTraining\FighterArena.Core\bin\Debug\netstandard2.0\FighterArena.Core.pdb
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.csprojResolveAssemblyReference.cache
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.csproj.CoreCompileInputs.cache
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.AssemblyInfoInputs.cache
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.AssemblyInfo.cs
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.dll
+C:\Code\GIT\ErickTraining\FighterArena.Core\obj\Debug\netstandard2.0\FighterArena.Core.pdb

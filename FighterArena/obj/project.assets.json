@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FighterArena.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FighterArena.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FighterArena.Core.dll": {}
+        }
       }
     }
   },
@@ -656,15 +666,21 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FighterArena.Core/1.0.0": {
+      "type": "project",
+      "path": "../FighterArena.Core/FighterArena.Core.csproj",
+      "msbuildProject": "../FighterArena.Core/FighterArena.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FighterArena.Core >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ChidoYo\\.nuget\\packages\\": {},
+    "C:\\Users\\DannyStaten\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +689,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\HothStation\\FighterArena\\FighterArena\\FighterArena.csproj",
+      "projectUniqueName": "C:\\Code\\GIT\\ErickTraining\\FighterArena\\FighterArena.csproj",
       "projectName": "FighterArena",
-      "projectPath": "C:\\HothStation\\FighterArena\\FighterArena\\FighterArena.csproj",
-      "packagesPath": "C:\\Users\\ChidoYo\\.nuget\\packages\\",
-      "outputPath": "C:\\HothStation\\FighterArena\\FighterArena\\obj\\",
+      "projectPath": "C:\\Code\\GIT\\ErickTraining\\FighterArena\\FighterArena.csproj",
+      "packagesPath": "C:\\Users\\DannyStaten\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\GIT\\ErickTraining\\FighterArena\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ChidoYo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DannyStaten\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -696,7 +712,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Code\\GIT\\ErickTraining\\FighterArena.Core\\FighterArena.Core.csproj": {
+              "projectPath": "C:\\Code\\GIT\\ErickTraining\\FighterArena.Core\\FighterArena.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

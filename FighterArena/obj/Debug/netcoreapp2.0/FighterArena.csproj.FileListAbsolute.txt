@@ -9,3 +9,16 @@ C:\Users\ChidoYo\Documents\Visual Studio 2017\Projects\FighterArena\FighterArena
 C:\Users\ChidoYo\Documents\Visual Studio 2017\Projects\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.AssemblyInfo.cs
 C:\Users\ChidoYo\Documents\Visual Studio 2017\Projects\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.dll
 C:\Users\ChidoYo\Documents\Visual Studio 2017\Projects\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.pdb
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.deps.json
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.runtimeconfig.json
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.runtimeconfig.dev.json
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.dll
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.pdb
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.Core.dll
+C:\Code\GIT\ErickTraining\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.Core.pdb
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.csprojResolveAssemblyReference.cache
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.csproj.CoreCompileInputs.cache
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.AssemblyInfoInputs.cache
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.AssemblyInfo.cs
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.dll
+C:\Code\GIT\ErickTraining\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.pdb
