@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using FighterArena.Core.Interfaces;
 using Newtonsoft.Json;
+using FighterArena.Core.Classes;
 
 namespace FighterArena.Core.Services
 {

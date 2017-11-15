@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FighterArena.Core
+namespace FighterArena.Core.Classes
 {
     public class FighterBase
     {

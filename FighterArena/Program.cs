@@ -51,6 +51,7 @@ namespace FighterArena
 
         }
 
+        //NOTE: I would probably move this to a Utils location or something rather than duplicate this method all over the place
         private static int CollectInt(int min, int max)
         {
             var valid = false;
