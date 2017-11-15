@@ -1,4 +1,6 @@
 ﻿using FighterArena.Core;
+using FighterArena.Core.Interfaces;
+using FighterArena.Core.Services;
 using System;
 using System.Runtime.CompilerServices;
 
@@ -7,29 +9,30 @@ namespace FighterArena
 
     class Program
     {
+
+
         static void Main(string[] args)
         {
+            //IFighterCreator creator = new ConsoleFighterCreator();
+            //IFighterCreator creator = new JsonFileFighterCreator();
+            IFighterCreator creator;
             Console.WriteLine("Welcome to Fighter Arena!\n");
-            var health = 0;
-            var defense = 0;
-            var attack = 0;
-            var name = String.Empty;
+            
             while (true)
             {
-           
-                Console.WriteLine("Enter your fighter's name...");
-                name = Console.ReadLine();
+                Console.WriteLine("Console(1) or File(2)");
+                var choice = CollectInt(1, 2);
+                if (choice == 1)
+                {
+                    creator = new ConsoleFighterCreator();
+                } 
+                else
+                {
+                    creator = new JsonFileFighterCreator();
+                }
+              
+                var fighter = creator.Create();
 
-                Console.WriteLine("\nEnter your fighter's Attack level... (1 to 10)");
-                attack = CollectInt(1,10);
-
-                Console.WriteLine("\nEnter your fighter's Defense level... (1 to 10)");
-                defense = CollectInt(1, 10);
-
-                Console.WriteLine("\nEnter your fighter's Health level... (1 to 10)");
-                health = CollectInt(1, 10);
-
-                var fighter = new FighterBase(name, attack, defense, health);
                 Console.WriteLine(fighter.ToString());
 
                 Console.WriteLine("\nQuit? Y / Q");
