@@ -15,3 +15,8 @@ C:\HothStation\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.As
 C:\HothStation\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.AssemblyInfo.cs
 C:\HothStation\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.dll
 C:\HothStation\FighterArena\FighterArena\obj\Debug\netcoreapp2.0\FighterArena.pdb
+C:\HothStation\FighterArena\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.deps.json
+C:\HothStation\FighterArena\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.runtimeconfig.json
+C:\HothStation\FighterArena\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.runtimeconfig.dev.json
+C:\HothStation\FighterArena\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.dll
+C:\HothStation\FighterArena\FighterArena\bin\Debug\netcoreapp2.0\FighterArena.pdb

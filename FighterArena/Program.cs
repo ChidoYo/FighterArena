@@ -2,12 +2,20 @@
 
 namespace FighterArena
 {
-    class Fighter
+    public class Fighter
     {
-        public string Name { get; set; }
-        public int Attack { get; set; }
-        public int Defense { get; set; }
-        public int Health { get; set; }
+        public string Name { get; private set; }
+        public int Attack { get; private set; }
+        public int Defense { get; private set; }
+        public int Health { get; private set; }
+
+        public Fighter(string name, int attack, int defense, int health)
+        {
+            Name = name;
+            Attack = attack;
+            Defense = defense;
+            Health = health;
+        }
     }
 
     class Program
@@ -18,21 +26,9 @@ namespace FighterArena
 
             while (true)
             {
-                Fighter UserFighter = new Fighter();
+                Fighter UserFighter = new Fighter("El Chamo", 9, 8, 6);
 
-                Console.WriteLine("Enter your fighter's name...");
-                UserFighter.Name = Console.ReadLine();
-
-                Console.WriteLine("\nEnter your fighter's Attack level... (1 to 10)");
-                UserFighter.Attack = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("\nEnter your fighter's Defense level... (1 to 10)");
-                UserFighter.Defense = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("\nEnter your fighter's Health level... (1 to 10)");
-                UserFighter.Health = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("\nYour fighter's name is {0} \nAttack level {1} \nDefense level {2} \nHealth level {3}", 
+                Console.WriteLine("\nYour fighter's name is {0} \nAttack level {1} \nDefense level {2} \nHealth level {3}",
                     UserFighter.Name, UserFighter.Attack, UserFighter.Defense, UserFighter.Health);
 
                 Console.WriteLine("\nQuit? Y / Q");
